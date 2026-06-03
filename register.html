@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>MinKatt</title>
+    <title>MinKatt - registrera</title>
 
     <link rel="stylesheet" href="styles.css">
-    <script defer src="main.js"></script>
+    <script defer src="register.js"></script>
 </head>
 
 <body>
@@ -32,10 +32,22 @@
     <main>
         <div class="container">
             <section>
-                <h1>MinKatt</h1>
-                <p>Här kan du logga in och få en slumpad kattbild tilldelad.</p>
-                <p>Varje användare får en egen bild tack vare <a href="https://cataas.com">https://cataas.com</a></p>
-                <p>Inloggade användare kan gå till <a href="dashboard.html">/dashboard.html</a> för att se sin katt.</p>
+                <h1>Registrera konto</h1>
+                <p>Skapa ett konto för att få din egen katt</p>
+                <form id="registerForm">
+
+                    <label for="username">Användarnamn</label>
+                    <input type="text" id="username" required>
+
+                    <label for="password">Lösenord</label>
+                    <input type="password" id="password" required>
+
+                    <button type="submit">Registrera</button>
+
+                </form>
+
+                <p id="message"></p>
+
             </section>
         </div>
     </main>
