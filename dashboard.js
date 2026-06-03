@@ -27,14 +27,14 @@ async function loadUser() {
             return;
         }
 
-        document.getElementById("username").textContent = data.username;
+        document.getElementById("username").textContent = "Välkommen " + data.username + "!";
         document.getElementById("catImage").src = data.cat;
 
         message.style.display = "none";
         content.style.display = "block";
 
     } catch (error) {
-        message.textContent = "Kunde inte hämta användardata, logga in?";
+        message.textContent = "Kunde inte hämta användardata";
     }
 }
 
