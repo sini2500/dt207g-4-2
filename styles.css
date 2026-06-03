@@ -143,26 +143,3 @@ header .container {
   }
 
 }
-
-.work-list {
-    display: grid;
-    gap: 1rem;
-}
-
-.work-card {
-    padding: 1rem;
-    margin: 1rem 0;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    justify-content: space-between;
-}
-
-.work-card-buttons {
-    display: flex;
-    gap: 1rem;
-    margin-top: 1rem;
-}
-
-.work-card-buttons button {
-    padding: 12px;
-}
