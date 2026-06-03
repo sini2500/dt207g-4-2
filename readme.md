@@ -10,7 +10,7 @@ Front-end publicerad på Netlify: https://dt207g-4-sini2500.netlify.app
 
 För den här uppgiften skulle vi skapa ett litet API för att hantera registrering och inloggning av användare, samt JWT-autentisering.
 
-I detta repo finns front-end delen av uppgiften, med enkel html, css och all JS som behövs i en fil.
+I detta repo finns front-end delen av uppgiften, med enkel html, css och all JS som behövs.
 
 Jag har valt att göra en tjänst där varje användare får sin alldeles egna kattbild från ett annat API: https://cataas.com.
 
